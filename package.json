@@ -1,0 +1,22 @@
+{
+  "name": "node_express_proj",
+  "description": "Node Express Project",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "author": "Jeff Cincotta",
+  "directories": {
+    "lib": "."
+  },
+  "scripts": {
+    "test": "expresso"
+  },
+  "engines": {
+    "node": ">= 0.4.7 < 0.5.0"
+  },
+  "dependencies": {
+    "express": ">= 2.0.0 < 3.0.0",
+    "pg": "^6.1.2"
+  }
+}
